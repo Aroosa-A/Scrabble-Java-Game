@@ -1,15 +1,76 @@
-# Scrabble Challenge - this time in Java!
+Scrabble Game -in java
+==================
 
-* Never played Scrabble game so to understand the logic of extended criteria I got help from previous cohort engineer Waqas Parvaiz's pull request
-````
-Because there was no test for checking string is not alphabets so didn't check for it
- but could check it inside checkArray method.
- addAllScores() method is adding total score of all alphabets
- extraScoreRecorderForWords() method is checking if inpuString is doubleWord it makes input string 2 times of its total score
- if inpuString is tripleWord it will make it three times of total original score.
- extraScoreRecorderForLetters() checks if inputString have doubleLetter character it calls
- getDoubleLetterScore() method which evatually calculate extra score by adding the
- character value one time extra.
- and if word is tripleWord it will call getTripleLetterScore() method which will 
- add doubles value(two times of initial value of letter) in total score
-````
+About the Project:
+-----------
+
+- This is Scrabble game project
+- This challenge was to test our Java knowledge
+- TDD methodology was used
+
+Build With:
+---------
+
+### Language
+- Java
+
+### IDE
+- InteliJ
+
+Getting Started:
+-----------
+
+1. Clone the repo
+
+    You can copy project link from *green* button named as **Code**, link should be like this
+    ```
+    git clone http://github.com/your-username/Project-name.git
+    ```
+    
+2. Test
+
+    You can run tests by right clicking on **test** folder and selecting *run all tests*
+   
+    
+Proble Statements:
+-----------
+
+### Problem
+ ```
+ Given a word, compute the scrabble score for that word.
+
+##### Letter Values
+
+You'll need these:
+```
+| Letter                        | Value  |
+| ----                          |  ----  |
+| A, E, I, O, U, L, N, R, S, T  |     1  |
+| D, G                          |     2  |
+| B, C, M, P                    |     3  |
+| F, H, V, W, Y                 |     4  |
+| K                             |     5  |
+| J, X                          |     8  |
+| Q, Z                          |     10 |
+
+Example
+"cabbage" should be scored as worth 14 points:
+
+- 3 points for C
+- 1 point for A, twice
+- 3 points for B, twice
+- 2 points for G
+- 1 point for E
+
+And to total:
+
+```
+3 + 2x1 + 2x3 + 2 + 1
+= 3 + 2 + 6 + 3
+= 14
+```
+
+Project Review:
+----------
+
+-Could have played with Map using different approach
