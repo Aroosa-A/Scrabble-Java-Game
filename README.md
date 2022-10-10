@@ -1,4 +1,4 @@
-Scrabble Game -in java
+Scrabble Game
 ==================
 
 About the Project:
