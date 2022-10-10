@@ -73,3 +73,4 @@ Project Review:
 ----------
 
 - Could have played with Map using different approach
+- Would like to make it full stack Project by making front end for it
