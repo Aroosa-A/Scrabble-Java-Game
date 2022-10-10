@@ -32,10 +32,9 @@ Getting Started:
     You can run tests by right clicking on **test** folder and selecting *run all tests*
    
     
-Proble Statements:
+Problem Statement:
 -----------
 
-### Problem
  ```
  Given a word, compute the scrabble score for that word.
 
