@@ -4,6 +4,8 @@ Scrabble Game
 About the Project:
 -----------
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&background=000000&center=true&vCenter=true&multiline=true&width=435&lines=class+Scrabble%7B+;++++++++++++++++++++++++%7D)](https://git.io/typing-svg)
+
 - This is Scrabble game project
 - This challenge was to test our Java knowledge
 - TDD methodology was used
